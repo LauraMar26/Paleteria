@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear una cuenta</title>
+    <link rel="stylesheet" href="stylel2.css">
+    <style>
+        header{
+            background-color: #6494AB;
+            color: white;
+            padding: 10px;
+            text-align: center;
+
+        }
+        ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        li{
+            display: inline;
+            margin-right: 20px;
+
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        body
+        {background-color: #0C567A;
+            color: white;
+        }
+        .c{
+            float: top;
+        }
+
+
+            </style>
+</head>
+<body>
+    <div class="c">
+    <header>
+    <h1>Inicio</h1>
+    <nav>
+    <ul>
+        <li><a href="Productos.html">Productos </a></li>
+        <li><a href="ofertas.html">Ofertas </a></li>
+        <li><a href="carrito.html">Carrito </a></li>
+        <li><a href="login2.html">Crea tu cuenta </a></li>
+        <li><a href="login1.html">Ingresa a  tu cuenta </a></li>
+    </ul>
+      </nav>
+      
+     </header>
+ </div>
+    <div class="registro-container">
+        <h2>Crear una cuenta</h2>
+        <form id="registro-form">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Crear Cuenta</button>
+        </form>
+        <p id="mensaje-exito" class="mensaje-exito"></p>
+    </div>
+
+    <script src="scriptl2.js"></script>
+</body>
+</html>
